@@ -1,18 +1,19 @@
 package SalarioEmpresa;
+
 import java.util.ArrayList;
 
 
 public class Empresa {
-    private ArrayList<Empleado> empleados = new ArrayList<>();
+private ArrayList<Empleados> empleados = new ArrayList<Empleados>();
+
+public void contratar(Empleados empleado){
+    empleados.add(empleado);
+}
+
+
+public double diaDePago(){
+    double sueldosTotales = 0;
     
-    public void contratar(Empleado empleado){
-        empleados.add(empleado);
-    }
-    
-    
-    public double diaDePago(){
-        double sueldosTotales = 0;
-        
-        return sueldosTotales;
-    }
+    return 0;
+}
 }
